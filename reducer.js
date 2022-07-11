@@ -37,9 +37,9 @@ const numMax = numberArray.reduce(maxReduce);
 const strCounted = str.split("").reduce(countDupReduce, {});
 const multipleCalc = numberArray.reduce(multipleReduce, 1);
 
-console.log(numReduce);
-console.log(multipleCalc);
-console.log(numReduceProportion);
-console.log(textReduce);
+console.log("Number sum",numReduce);
+console.log("Number multiple",multipleCalc);
+console.log("Number proportion",numReduceProportion);
+console.log("Char concat",textReduce);
 console.log("String duplication count: ", strCounted);
 console.log("Max number of array: ",numMax);
